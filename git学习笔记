@@ -24,6 +24,7 @@ git branch -d <branch-name>	删除<branch-name>分支
 如果同时修改了一个文件
 
 修改合并信息查看
+--graph  图
 git log --graph --pretty=oneline --abbrev-commit
-有一个疑问就是不知道什么时候文件被改了diff的时候?
+
 
