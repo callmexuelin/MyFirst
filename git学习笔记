@@ -1,5 +1,3 @@
-本地git  
-
 git init	初始化本地仓库
 git add <file-name>	添加file-name文件到缓存区
 git commit -m "infomation"	添加文件到本地仓库
@@ -24,3 +22,4 @@ git branch -d <branch-name>	删除<branch-name>分支
 git log --graph --pretty=oneline --abbrev-commit 用图片的形式打印commit信息
 git merge --no-ff -m "infomation" dev  	参数--no-ff 记录合并历史信息
 
+git stash 	保存当前的信息
