@@ -20,3 +20,10 @@ git push orgin <branch-name>	把本地代码推送到远程branch-name仓库
 git branch	查看当前分支
 git merge <branch-name>		合并branch-name分支到当前分支
 git branch -d <branch-name>	删除<branch-name>分支
+
+如果同时修改了一个文件
+
+修改合并信息查看
+git log --graph --pretty=oneline --abbrev-commit
+有一个疑问就是不知道什么时候文件被改了diff的时候?
+
