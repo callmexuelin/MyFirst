@@ -13,7 +13,6 @@ git checkout <branch>	切换到branch分支
 git reset	版本回退到暂存区
 git rm		删除文件
 
-==
 git checkout -b <branch-name>	创建并且切换到brancn-name分支
 git clone <git-hub>	克隆git-hub上的代码
 git push orgin <branch-name>	把本地代码推送到远程branch-name仓库
@@ -21,10 +20,7 @@ git branch	查看当前分支
 git merge <branch-name>		合并branch-name分支到当前分支
 git branch -d <branch-name>	删除<branch-name>分支
 
-如果同时修改了一个文件
-
 修改合并信息查看
---graph  图
-git log --graph --pretty=oneline --abbrev-commit
-
+git log --graph --pretty=oneline --abbrev-commit 用图片的形式打印commit信息
+git merge --no-ff -m "infomation" dev  	参数--no-ff 记录合并历史信息
 
