@@ -1,0 +1,22 @@
+本地git  
+
+git init	初始化本地仓库
+git add <file-name>	添加file-name文件到缓存区
+git commit -m "infomation"	添加文件到本地仓库
+git status	查看当前仓库状态
+git diff	查看文件差异（还算好看）
+git log --pretty=oneline 	以精简的方式查看上库log
+git rest <commit_id>	版本回退到commit——id
+git reflog 	查看版本相关log
+
+git checkout <branch>	切换到branch分支
+git reset	版本回退到暂存区
+git rm		删除文件
+
+==
+git checkout -b <branch-name>	创建并且切换到brancn-name分支
+git clone <git-hub>	克隆git-hub上的代码
+git push orgin <branch-name>	把本地代码推送到远程branch-name仓库
+git branch	查看当前分支
+git merge <branch-name>		合并branch-name分支到当前分支
+git branch -d <branch-name>	删除<branch-name>分支
