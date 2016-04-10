@@ -25,4 +25,6 @@ git merge --no-ff -m "infomation" dev  	参数--no-ff 记录合并历史信息
 git stash 	保存工作现场
 git stash pop 	回到工作现场
 git stash list  恢复到指定现场
-如果是git的话 真的一个工程就可以搞定了
+git branch -D <branch-name>	强行删除分支
+git remote -v 	查看远程库信息
+git branch --set-upstream branch-name origin/branch-name 	建立本地分支与远程分支的链接
