@@ -22,4 +22,7 @@ git branch -d <branch-name>	删除<branch-name>分支
 git log --graph --pretty=oneline --abbrev-commit 用图片的形式打印commit信息
 git merge --no-ff -m "infomation" dev  	参数--no-ff 记录合并历史信息
 
-git stash 	保存当前的信息
+git stash 	保存工作现场
+git stash pop 	回到工作现场
+git stash list  恢复到指定现场
+如果是git的话 真的一个工程就可以搞定了
