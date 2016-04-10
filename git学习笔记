@@ -28,3 +28,5 @@ git stash list  恢复到指定现场
 git branch -D <branch-name>	强行删除分支
 git remote -v 	查看远程库信息
 git branch --set-upstream branch-name origin/branch-name 	建立本地分支与远程分支的链接
+git tag <name> 		打标签
+git tag <name> <commit-id>	往commitid上打标签
