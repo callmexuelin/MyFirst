@@ -30,3 +30,6 @@ git remote -v 	查看远程库信息
 git branch --set-upstream branch-name origin/branch-name 	建立本地分支与远程分支的链接
 git tag <name> 		打标签
 git tag <name> <commit-id>	往commitid上打标签
+git tag -d <name>	删除标签
+git push orgin <tagname>	推送标签到远程
+git config --global color.ui true	配置git颜色
