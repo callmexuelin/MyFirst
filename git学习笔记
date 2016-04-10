@@ -33,3 +33,14 @@ git tag <name> <commit-id>	往commitid上打标签
 git tag -d <name>	删除标签
 git push orgin <tagname>	推送标签到远程
 git config --global color.ui true	配置git颜色
+git .gitignore 文件  不上传一些文件配置
+
+git config --global alias.st status 
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.br branch
+git config --global alias.last 'log -1' 最后一次上传信息
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"	你懂得
+.gitconfig 在自己目录里
+git 没有想象中的那么难嘛，即使是搭建服务器也很简单的样子那么学习就到此为止了
+加油
