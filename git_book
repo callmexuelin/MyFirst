@@ -44,3 +44,4 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 .gitconfig 在自己目录里
 git 没有想象中的那么难嘛，即使是搭建服务器也很简单的样子那么学习就到此为止了
 加油
+git branch -r -d origin/branch-name	删除远程分支
